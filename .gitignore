@@ -1,0 +1,57 @@
+# Root gitignore for the repo
+# ==========================
+# System
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+
+# Virtual envs
+venv/
+env/
+.venv/
+myenv/
+server/myenv/
+
+# Environment variables (secrets)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+client/node_modules/
+client/dist/
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Misc
+*.swp
+*.swo

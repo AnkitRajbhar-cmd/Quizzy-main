@@ -1,0 +1,79 @@
+# ==========================
+# GLOBAL / SYSTEM
+# ==========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# ==========================
+# PYTHON BACKEND (Server)
+# ==========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+# (Includes common names and the one you used: myenv)
+venv/
+env/
+.venv/
+myenv/
+server/myenv/
+
+# Environment Variables (Secrets)
+.env
+.env.*
+!client/.env.example
+!server/.env.example
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# DB (If you ever use SQLite locally)
+*.sqlite3
+
+# ==========================
+# NODE FRONTEND (Client)
+# ==========================
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Production Build Output (Vite)
+client/dist/
+
+# Debug Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python/test caches
+.pytest_cache/
+.coverage
+.coverage.*
+.mypy_cache/
+
+# Misc
+*.egg-info/
+.env.local
+.env.*
+!.env.example
